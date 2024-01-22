@@ -3,14 +3,13 @@
     font-family: 'Poppins',cursive;
 }
 body{
-    color: azure;
+    background-image: url(rani.jpg);
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 .greetings{
     font-size: 6rem;
@@ -48,6 +47,9 @@ body{
 }
 
 .button a{
+    border: none;
+    outline: none;
+    border-radius: 15px;
     text-decoration: none;
     font-size: 1rem;
     color: #111;
